@@ -1,11 +1,11 @@
 import type { Meta, StoryObj } from "@storybook/react"
 
-import { ReloadButton } from "../components"
+import { DeleteButton } from "../components"
 
 // More on how to set up stories at: https://storybook.js.org/docs/7.0/react/writing-stories/introduction
-const meta: Meta<typeof ReloadButton> = {
-  title: "Buttons/Reload Button",
-  component: ReloadButton,
+const meta: Meta<typeof DeleteButton> = {
+  title: "Buttons/Floating Action Button",
+  component: DeleteButton,
   tags: ["autodocs"],
   argTypes: {
     backgroundColor: {
@@ -15,14 +15,13 @@ const meta: Meta<typeof ReloadButton> = {
 }
 
 export default meta
-type Story = StoryObj<typeof ReloadButton>
+type Story = StoryObj<typeof DeleteButton>
 
 // More on writing stories with args: https://storybook.js.org/docs/7.0/react/writing-stories/args
 export const Primary: Story = {
   args: {
     primary: true,
     label: "Button",
-    field: "field",
   },
 }
 

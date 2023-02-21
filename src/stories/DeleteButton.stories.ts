@@ -4,7 +4,7 @@ import { DeleteButton } from "../components"
 
 // More on how to set up stories at: https://storybook.js.org/docs/7.0/react/writing-stories/introduction
 const meta: Meta<typeof DeleteButton> = {
-  title: "Components/Button/Delete Button",
+  title: "Buttons/Delete Button",
   component: DeleteButton,
   tags: ["autodocs"],
   argTypes: {
